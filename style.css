@@ -20,11 +20,11 @@
     font-family: fantasy, cursive;
   }
   
-  @media (max-width:768px) {  
+  @media (max-width: 768px) {  
 
     .information {    
       text-align: center;
-      
+
     }
   }  
   
@@ -157,14 +157,14 @@
   
   /* Edit Task */
   ul li input[type=text] {
-    display:none
+    display: none
   }
   
   ul li.editMode input[type=text] {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
   }
   
   ul li.editMode label {
-    display:none;
+    display: none;
   }
