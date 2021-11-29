@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+ .page {
     background-color: #f8f8f8;
     color: #333;
     font-family: lato, sans-serif;
@@ -20,7 +20,7 @@ body {
     font-family: fantasy, cursive;
   }
   
-  @media (max-width:768px) {    
+  @media (max-width:768px) {          
     .information {    
       text-align: center;
     }
@@ -148,7 +148,7 @@ body {
   }
   
   /* Completed */
-  ul#complete label {  
+  ul#completed label {  
     text-decoration: line-through;
     color: #888;
   }
